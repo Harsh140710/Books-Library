@@ -67,8 +67,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // allBooks = [...allBooks,{ bookTitle, bookImage, authorName, infoLink, publishDate }];
 
-        allBooks = [...allBooks,...newBooks]; 
       });
+      
+      allBooks = [...allBooks,...newBooks]; 
       showCards(newBooks);
       
       // display all card
