@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Video Listing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="heading">BooksLibrary</h1>
+        <div class="searchBar">
+          <input type="text" id="searchInput" />
+          <button id="searchBtn"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <button id="switchBtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <!-- list icon -->
+      </header>
+      <div class="gridBookContainer" id="bookContainer">
+        <h1 class="hidden errorMessage" id="MessageDisplay">No Video Found</h1>
+      </div>
+      
+      <!-- <div class="showMoreBtn">Show More</div> -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
